@@ -1,10 +1,8 @@
 import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
   View,
   Text,
-  ScrollView,
   TouchableOpacity,
   Image,
   FlatList,
@@ -30,6 +28,7 @@ const Projects = () => {
       <Divider style={{ padding: 2, margin: 15 }} />
       <FlatList
         horizontal
+        showsHorizontalScrollIndicator={false}
         data={projects}
         renderItem={({ item }) => (
           <TouchableOpacity
