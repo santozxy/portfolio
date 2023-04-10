@@ -39,7 +39,7 @@ const projects = [
     name: 'Portfólio',
     motivation:
       'Eu decidi criar um portfólio em React Native para além de exibir minhas habilidades, projetos em desenvolvimento de aplicativos móveis, também aprender e aprimorar minhas habilidades, aumentar minha visibilidade e compartilhar minhas ideias com outras pessoas. Espero que você goste de conhecer meu portfólio e fique à vontade para entrar em contato comigo para colaborações ou oportunidades de trabalho.',
-    repository: null,
+    repository: 'https://github.com/santozxy/portfolio',
     image: require('../../assets/portfolio1.jpg'),
     images: [
       require('../../assets/portfolio1.jpg'),
